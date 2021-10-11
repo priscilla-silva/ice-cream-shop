@@ -1,0 +1,125 @@
+
+body {
+    background-color: rgb(247, 181, 215);
+    text-align: center;
+}
+
+.pink-container {
+    background-color: #fd49a7ff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 1180px;
+    border-radius: 15px;
+}
+
+.multi-ice-cream {
+    width: 320px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.ice-cream-cones {
+    width: 320px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.pink-orange {
+    width: 320px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.first-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.pink-container2 {
+    background-color: #fd49a7ff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    height: 500px;
+    width: 1180px;
+    border-radius: 15px;
+}
+
+.lemon-ice-cream {
+    width: 370px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.watermelon {
+    width: 650px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.second-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+.pink-container3 {
+    background-color: #fd49a7ff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    height: 1060px;
+    width: 1180px;
+    border-radius: 15px;
+}
+
+.ice-cream-berries {
+    border-radius: 15px;
+    width: 700px;
+    height: 470px;
+    margin-top: 15px;
+}
+
+.pink-blue {
+    width: 370px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.pretzel {
+    width: 355px;
+    height: 540px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.soft-serve {
+    width: 370px;
+    height: 540px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.neon-sign {
+    width: 360px;
+    height: 540px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
