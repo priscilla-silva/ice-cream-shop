@@ -1,17 +1,5 @@
-/*Google Fonts*/ 
-@import url(https://fonts.google.com/share?selection.family=Josefin%20Sans:ital,wght@0,400;0,600;0,700;1,400%7CPacifico);
-
 /*logo and campaign font*/
 $logo-font: 'Pacifico', cursive;
 
 /*primary font*/
 $primary-font: 'Josefin Sans', sans-serif;
-
-/*headers*/
-$header-font: $primary-font, 700, normal, 48px, $black;
-
-/*nav menu*/
-$menu-font: $primary-font, 400, normal, 18px, $white;
-
-/*campaign font*/
-$icecream-font: $primary-font, 400, normal, 36px, $white;
