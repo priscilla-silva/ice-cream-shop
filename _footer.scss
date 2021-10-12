@@ -58,3 +58,30 @@ footer {
     }
     
 }
+.logo_footer {
+    transform: scale(.5);
+    padding-left: 0px;
+}
+
+.footer_info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 150px;
+
+}
+
+.footer_icons {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+i {
+    padding: 10px;
+    padding-top: 60px;
+
+}

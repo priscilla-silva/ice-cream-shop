@@ -12,8 +12,9 @@ header {
 }
 
 .logo {
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  padding-left: 15px;
 }
 
 ul {
@@ -29,8 +30,15 @@ ul {
 li {
   padding: 10px;
   padding-top: 30px;
-  color: white;
   font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #aeff54;
 }
 
 .card_one {
@@ -99,6 +107,44 @@ footer {
     margin-left: 20px;
   }
 }
+.logo_footer {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  padding-left: 0px;
+}
+
+.footer_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 150px;
+}
+
+.footer_icons {
+  font-size: 24px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+i {
+  padding: 10px;
+  padding-top: 60px;
+}
+
 footer {
   background-image: url("/images/Footer_dripping.png");
   background-color: white;
@@ -146,6 +192,44 @@ footer {
     margin-left: 20px;
   }
 }
+.logo_footer {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  padding-left: 0px;
+}
+
+.footer_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 150px;
+}
+
+.footer_icons {
+  font-size: 24px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+i {
+  padding: 10px;
+  padding-top: 60px;
+}
+
 body {
   background-color: #fd49a7;
   font-family: "Josefin Sans", sans-serif;
