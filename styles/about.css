@@ -47,17 +47,74 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 50px;
+  padding: 20px;
+  padding-bottom: 50px;
   border-radius: 70px 70px 0 0;
+}
+.card_one_info {
+  width: 50%;
+}
+.card_one_info-title {
+  font-family: "Pacifico";
+  color: #fd49a7;
+  font-size: 48px;
+}
+.card_one_info-subtitle {
+  font-size: 28px;
+}
+.card_one_info-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+.card_one_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#cone {
+  padding-left: 0px;
+  color: #fd49a7;
+}
+
+#cone-2 {
+  padding-left: 0px;
+  color: #fd49a7;
+}
+
+.three_cones {
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+  position: relative;
+  top: 40px;
+  right: 50px;
+  z-index: 1;
+  -webkit-box-shadow: 5px 5px 5px pink;
+          box-shadow: 5px 5px 5px pink;
+}
+
+.flavours {
+  border-radius: 15px;
+  z-index: 2;
+  position: relative;
+  top: 45px;
+  left: 35px;
+  -webkit-box-shadow: 5px 5px 5px pink;
+          box-shadow: 5px 5px 5px pink;
 }
 
 footer {
