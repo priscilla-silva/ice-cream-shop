@@ -1,0 +1,60 @@
+footer {
+    background-image: url("/images/Footer_dripping.png");
+    background-color: white;
+    width: 1370px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-left: 19px;
+
+    
+}
+
+@media screen and (min-width:1920px) {
+    footer {
+        background-image: url("/images/Footer_dripping.png");
+        background-color: white;
+        width: 1850px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        margin-left: 19px;
+    
+        
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    footer {
+        background-image: url("/images/Footer_dripping.png");
+        background-color: white;
+        width: 712px;
+        height: 280px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        margin-left: 20px;
+    
+        
+    }
+    
+}
+
+@media screen and (min-width:320px) and  (max-width:414px) {
+    footer {
+        background-image: url("/images/Footer_dripping.png");
+        background-color: white;
+        width: 264px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        margin-left: 20px;
+    
+        
+    }
+    
+}

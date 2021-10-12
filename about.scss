@@ -1,7 +1,9 @@
 @use 'fonts';
 @use 'colors';
 
+@import 'header';
 @import 'card_one';
+@import 'footer';
 
 body {
 

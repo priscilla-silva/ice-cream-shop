@@ -1,15 +1,19 @@
 .card_one {
-    background-image: url("/images/Dripping_background.png");
+    // background-image: url("/images/Dripping_background.png");
     background-color: white;
-    width: 90%;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 1024;
+    // height: 800px;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin: 20px;
     margin-top: 0px;
+    margin-bottom: 0px;
     padding: 50px;
+    border-radius: 70px 70px 0 0;
     
 }
+
+@import 'footer';

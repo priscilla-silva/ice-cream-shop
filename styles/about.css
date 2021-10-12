@@ -1,11 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pacifico&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  padding-left: 0px;
+  background-color: #fd49a7;
+}
+
+.logo {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+li {
+  padding: 10px;
+  padding-top: 30px;
+  color: white;
+  font-size: 18px;
+}
+
 .card_one {
-  background-image: url("/images/Dripping_background.png");
   background-color: white;
-  width: 90%;
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 1024;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,9 +47,105 @@
           justify-content: center;
   margin: 20px;
   margin-top: 0px;
+  margin-bottom: 0px;
   padding: 50px;
+  border-radius: 70px 70px 0 0;
 }
 
+footer {
+  background-image: url("/images/Footer_dripping.png");
+  background-color: white;
+  width: 1370px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-left: 19px;
+}
+
+@media screen and (min-width: 1920px) {
+  footer {
+    background-image: url("/images/Footer_dripping.png");
+    background-color: white;
+    width: 1850px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-left: 19px;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    background-image: url("/images/Footer_dripping.png");
+    background-color: white;
+    width: 712px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  footer {
+    background-image: url("/images/Footer_dripping.png");
+    background-color: white;
+    width: 264px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-left: 20px;
+  }
+}
+footer {
+  background-image: url("/images/Footer_dripping.png");
+  background-color: white;
+  width: 1370px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-left: 19px;
+}
+
+@media screen and (min-width: 1920px) {
+  footer {
+    background-image: url("/images/Footer_dripping.png");
+    background-color: white;
+    width: 1850px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-left: 19px;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    background-image: url("/images/Footer_dripping.png");
+    background-color: white;
+    width: 712px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  footer {
+    background-image: url("/images/Footer_dripping.png");
+    background-color: white;
+    width: 264px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    margin-left: 20px;
+  }
+}
 body {
   background-color: #fd49a7;
   font-family: "Josefin Sans", sans-serif;
