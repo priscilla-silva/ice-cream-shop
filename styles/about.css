@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pacifico&display=swap");
+.card_one {
+  background-image: url("/images/Dripping_background.png");
+  background-color: white;
+  width: 90%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  margin-top: 0px;
+  padding: 50px;
+}
+
+body {
+  background-color: #fd49a7;
+  font-family: "Josefin Sans", sans-serif;
+}
