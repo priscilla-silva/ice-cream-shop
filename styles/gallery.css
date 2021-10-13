@@ -1,0 +1,210 @@
+body {
+    background-color: #E85197;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    transform: rotate(-6deg);
+    text-shadow: 0px 2px 7px #841A4F;
+    max-width: 100px;
+    width: 100%;
+    font-size: 50px;
+    position: relative;
+    margin-right: 50px;
+    letter-spacing: 1px;
+}
+
+nav {
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #E85197;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /*margin-top: 50px;
+    float: right;
+    display: flex;
+    justify-content: space-between;*/
+}
+
+.links {
+    max-width: 600px;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: bold;
+    color: white;
+    font-size: 15pt;
+    max-width: 80%;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+    
+a:hover {
+    text-decoration:underline;
+    text-decoration-color: #C7DEAC;
+    text-decoration-thickness: 3px;
+}
+
+.pink-container {
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 1180px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.multi-ice-cream {
+    width: 320px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.ice-cream-cones {
+    width: 320px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.pink-orange {
+    width: 320px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.first-text {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.pink-container2 {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    height: 500px;
+    width: 1180px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.lemon-ice-cream {
+    width: 370px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.watermelon {
+    width: 650px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.second-text {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+.pink-container3 {
+    background-color: rgb(255, 255, 255);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    height: 1060px;
+    width: 1180px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.ice-cream-berries {
+    border-radius: 15px;
+    width: 700px;
+    height: 470px;
+    margin-top: 15px;
+}
+
+.pink-blue {
+    width: 370px;
+    height: 470px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.pretzel {
+    width: 355px;
+    height: 540px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.soft-serve {
+    width: 370px;
+    height: 540px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.neon-sign {
+    width: 360px;
+    height: 540px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.footer-logo {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    transform: rotate(-6deg);
+    text-shadow: 0px 2px 7px #841A4F;
+    max-width: 100px;
+    width: 100%;
+    font-size: 50px;
+    position: relative;
+    
+    letter-spacing: 1px;
+}
+
+.footer-icons {
+    width: 200px;
+    margin-top: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
