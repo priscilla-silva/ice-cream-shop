@@ -1,0 +1,13 @@
+@use 'fonts';
+@use 'colors';
+
+@import 'header';
+@import 'card_one';
+@import 'footer';
+
+body {
+
+    background-color: colors.$main-color;
+    font-family: fonts.$main-font;
+    
+}

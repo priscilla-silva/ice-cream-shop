@@ -1,0 +1,73 @@
+.card_one {
+    // background-image: url("/images/Dripping_background.png");
+    background-color: white;
+    width: 1024;
+    // height: 800px;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 70px 70px 0 0;
+
+    &_info {
+        width: 50%;
+
+        
+        &-title {
+            font-family: fonts.$heading-font;
+            color: colors.$main-color;
+            font-size: 48px;
+        }
+        &-subtitle {
+            font-size: 28px;
+        }
+        &-text {
+            font-size: 18px;
+            font-weight:300;
+        }
+    }
+    &_images {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+#cone {
+    padding-left: 0px;
+    color: colors.$main-color;
+}
+
+#cone-2 {
+    padding-left: 0px;
+    color: colors.$main-color;
+}
+
+.three_cones {
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    z-index: 1;
+    box-shadow: 5px 5px 5px pink;
+}
+
+.flavours {
+    border-radius: 15px;
+    z-index: 2;
+    position: relative;
+    top: 45px;
+    left: 35px;
+    box-shadow: 5px 5px 5px pink;
+    
+}
+
+@import 'footer';
