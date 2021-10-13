@@ -8,6 +8,7 @@ body {
     height: 3800px;
 }
 
+
 .nav-bar {
     margin-top: 50px;
     float: right;
@@ -23,10 +24,13 @@ body {
     font-size: 20px;
     text-decoration: none;
     justify-content: space-between;
-
-
 }
 
+.home:hover, .about-us:hover, .gallery:hover, .contact:hover {
+    text-decoration: underline;
+    text-decoration-color: #C7DEAC;
+    text-decoration-thickness: 3px;
+}
 
 .pink-container {
     background-color: #fd49a7ff;
