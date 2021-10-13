@@ -1,8 +1,32 @@
 
 body {
-    background-color: rgb(247, 181, 215);
-    text-align: center;
+    background-image: url(../images/dripping.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /*text-align: center; 
+    /*background-color: rgb(247, 181, 215);*/
+    height: 3800px;
 }
+
+.nav-bar {
+    margin-top: 50px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home, .about-us, .gallery, .contact {
+    padding: 20px;
+    color: #fd49a7ff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+
+
+}
+
 
 .pink-container {
     background-color: #fd49a7ff;
@@ -12,6 +36,7 @@ body {
     height: 500px;
     width: 1180px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .multi-ice-cream {
@@ -52,6 +77,7 @@ body {
     height: 500px;
     width: 1180px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .lemon-ice-cream {
@@ -83,6 +109,7 @@ body {
     height: 1060px;
     width: 1180px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .ice-cream-berries {
@@ -122,4 +149,9 @@ body {
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 15px;
+}
+
+.bottom-logo {
+    margin-top: 900px;
+    margin-left: 50px;
 }
